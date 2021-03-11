@@ -31,10 +31,16 @@
     });
 
     // Activate scrollspy to add active class to navbar items on scroll
-    $("body").scrollspy({
-        target: "#mainNav",
-        offset: 100,
-    });
+    // bootstrap 4.x
+    // $("body").scrollspy({
+    //     target: "#mainNav",
+    //     offset: 100,
+    // });
+
+    // bootstrap 5.x
+    var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+        target: '#mainNav'
+      })
 
     // Collapse Navbar
     var navbarCollapse = function () {

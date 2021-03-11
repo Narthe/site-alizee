@@ -1,0 +1,17 @@
+hr{
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0.2rem;
+  max-width: 3.5rem;
+  border: 2px solid rgba(1, 1, 1, 1);
+  display: block;
+
+  &.divider-white{
+    border: 2px solid $white;
+  }
+
+  &.divider-primary{
+    border: 2px solid $green;
+  }
+}
