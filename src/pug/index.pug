@@ -141,8 +141,8 @@ html(lang='en')
                         div(class="accordion" id="accordionExample")
                             div(class="accordion-item")
                                 h2(class="accordion-header" id="headingOne")
-                                    button(class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne") Préparation du dossier
-                                div(id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample")
+                                    button(class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne") Préparation du dossier
+                                div(id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample")
                                     div(class="accordion-body")
                                         p 
                                             | Pour toute procédure d’indemnisation, il est primordial de constituer un dossier complet afin de faire reconnaître puis indemniser à leur juste valeur les préjudices subis.Il est à ce titre nécessaire d’obtenir copie l’intégralité des pièces médicales auprès des différents intervenants mais également des pièces non-directement médicales tenant à la situation personnelle de la victime.Le Cabinet fournit son assistance pour ce faire tout au long de la procédure. De plus, conscient qu’il ne peut y avoir de juste réparation sans écoute, Alizée CERVELLO a à cœur de recueillir les doléances de ses Clients afin de porter leurs vécus et revendications.
@@ -268,25 +268,26 @@ html(lang='en')
                         .card.py-4.h-100
                             .card-body.text-center
                                 i(class="fas fa-map-marker fa-2x")
-                                h4.text-uppercase.m-0 Adresse
-                                hr.my-4
-                                .small.text-black-50 
+                                h5.text-uppercase Adresse
+                                hr 
+                                div(class="contact-info")
                                     a(href="https://goo.gl/maps/jQ1MgG9oNh61DNrTA" target="#") 2, Rue de Penthièvre - 75008 PARIS
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
                                 i(class="far fa-envelope fa-2x")
-                                h4.text-uppercase.m-0 Email
-                                hr.my-4
-                                .small.text-black-50
+                                h5.text-uppercase Email
+                                hr
+                                div(class="contact-info")
                                     a(href='mailto:alizeecervello.avocat@gmail.com') alizeecervello.avocat@gmail.com
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
                                 i(class="fas fa-phone fa-2x")
-                                h4.text-uppercase.m-0 Téléphone
-                                hr.my-4
-                                .small.text-black-50 06.99.39.29.37
+                                h5.text-uppercase Téléphone
+                                hr 
+                                div(class="contact-info") 
+                                    a(href='tel:06.99.39.29.37') 06.99.39.29.37
 
         // Footer
         footer.footer.bg-black.small.text-center.text-white-50
