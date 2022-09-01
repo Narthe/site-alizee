@@ -26,12 +26,14 @@
     h2 {
       margin: 0;
     }
+    color: $green;
   }
   .accordion-button {
-    border: 1px solid rgba($white, 0.25);
+    border: 1px solid rgba($green, 0.25);
+    font-weight: bold;
   }
   .accordion-button.collapsed {
-    color: $white;
+    color: $green;
   }
   .accordion-button:not(.collapsed) {
     color: #2b5341;
@@ -41,7 +43,7 @@
     background-image: url(../assets/img/chevron-down-solid-green.svg);
   }
   .accordion-button::after {
-    background-image: url(../assets/img/chevron-down-solid-white.svg);
+    background-image: url(../assets/img/chevron-down-solid-green.svg);
   }
   
   .accordion-collapse {
